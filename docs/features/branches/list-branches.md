@@ -4,6 +4,10 @@ icon: list-unordered
 order: 100
 ---
 
+!!!warning
+This feature is only available when the [GitHub OAuth Authentication](/authentication/#authentication-methods) is used.
+!!!
+
 # List Branches
 
 ### Overview
