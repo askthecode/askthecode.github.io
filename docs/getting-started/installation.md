@@ -28,4 +28,3 @@ After installing the plugin, the next  step is to authenticate. Currently two op
 - **GitHub OAuth Authentication**: For a comprehensive experience, authenticate using your GitHub account. This grants access to additional features, like querying private repositories.
 
 For an in-depth understanding of authentication methods and account management, check out the [Authentication documentation](../authentication.md).
-

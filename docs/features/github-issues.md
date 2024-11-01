@@ -6,7 +6,9 @@ order: 50
 
 # Github Issues
 
----
+!!!warning
+This feature is only available when the [GitHub OAuth Authentication](/authentication/#authentication-methods) is used.
+!!!
 
 ### Overview
 
