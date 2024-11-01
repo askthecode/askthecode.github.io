@@ -18,6 +18,17 @@ This method allows users to quickly start exploring the features of the AskTheCo
 
 Authenticating with your GitHub account unlocks additional features, such as the ability to ask questions about private repositories. For an enhanced experience and to take full advantage of the plugin's capabilities, we recommend using the GitHub OAuth method.
 
+### GitHub OAuth Authentication
+
+To authenticate using GitHub OAuth in the AskTheCode plugin, follow these steps:
+
+1. Visit the Account Management Page.
+2. When installing the plugin, it will ask you to log in and show the authentication page.
+3. On the authentication page, press the "Change account" link to be redirected to the main Login page.
+4. GitHub caches the account you have previously used, so you might need to clear cookies for the github.com domain to see the prompt again.
+
+For more details, refer to the Account Management Page.
+
 ### Managing Your Account and Subscription
 
 [!embed](/resources/authentication/manage-subscription.mp4)
