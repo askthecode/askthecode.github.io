@@ -149,4 +149,66 @@ flowchart TB
 
 By providing a clear and structured prompt to the AskTheCode plugin, you can harness its power to get precise insights into specific parts of a codebase. This approach can be replicated for other endpoints or repositories, demonstrating the flexibility and capability of the plugin.
 
+## Iterative Prompting with AskTheCode Plugin
 
+Iterative prompting is a powerful technique that allows you to refine and improve the responses from the AskTheCode plugin by providing structured prompts and follow-up questions. This guide will showcase how to use iterative prompting to get precise insights from the AskTheCode plugin.
+
+### Step 1: Initial Prompt
+
+Start with a clear and specific initial prompt to guide the AskTheCode plugin in analyzing the code or repository.
+
+**Example Prompt:**
+
+```prompt
+You are a technical documentation writer for the eShopOnWeb repository. Your task is to provide a clear and detailed description of the full handling flow for the endpoint 'GET api/catalog-items' in the given GitHub repository: 
+https://github.com/dotnet-architecture/eShopOnWeb
+
+Follow these steps:
+
+1. Locate the file that handles the specified endpoint in the repository. Make sure that it is the correct file and it indeed contains the logic for the endpoint handling.
+2. Analyze the code of the handler to understand its functionality.
+3. Fetch the code of all dependencies related to the route handler and data retrieval logic.
+4. Analyze the dependencies, including their code and further dependencies if needed.
+5. Describe the main components involved in handling the 'GET api/catalog-items' endpoint and explain their interaction.
+
+Ensure your description includes any abstract classes or interface implementations as well as explanations of any external library usage. 
+Make sure to provide a structured and easy-to-understand response that demonstrates a deep understanding of the codebase.
+```
+
+### Step 2: Review and Refine
+
+Review the response from the AskTheCode plugin and identify any areas that need further clarification or additional details. Use follow-up prompts to refine the response.
+
+**Example Follow-Up Prompt:**
+
+```prompt
+Please continue with the dependencies analysis
+```
+
+### Step 3: Summarize and Continue
+
+To keep the knowledge gained in context and prevent losing it, ask ChatGPT to summarize all the knowledge gained first and only then proceed with further research.
+
+**Example Follow-Up Prompt:**
+
+```prompt
+Please summarize what you've learned so far and then continue with the dependencies analysis
+```
+
+### Step 4: Repeat as Needed
+
+Repeat the process of reviewing, refining, and summarizing until you are satisfied with the results. This iterative approach ensures that you get precise and comprehensive insights from the AskTheCode plugin.
+
+### Step 5: Visualize the Analysis
+
+To further enhance your understanding, you can visualize the results using a Mermaid flowchart. This provides a graphical representation of the interactions and flow of the endpoint, making it easier to grasp the overall structure and logic.
+
+**Example Prompt for Mermaid Flowchart:**
+
+```prompt
+Please build a detailed mermaid flowchart diagram based on this research. Group related entities into subgraphs, use cylindrical shaped nodes only for the database
+```
+
+### Conclusion
+
+Iterative prompting with the AskTheCode plugin allows you to refine and improve the responses by providing structured prompts and follow-up questions. This approach ensures that you get precise and comprehensive insights into specific parts of a codebase, making it a valuable tool for developers and technical documentation writers.
