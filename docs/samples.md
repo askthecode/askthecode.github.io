@@ -44,3 +44,115 @@ This will give us a sample of how to integrate Langchain with the GPT plugin:
 This conversation demonstrates the use of AskTheCode's file creation and update features within a GitHub repository. It showcases a step-by-step process for analyzing a repository's structure, creating new directories and files, and updating existing files with specific annotations and documentation content. The interaction shows how users can efficiently manage GitHub files, including writing and applying documentation updates directly through conversational commands.
 
 [View Sample](https://chat.openai.com/share/8f02d663-4d3d-4ac4-8319-2316974e1e1b)
+
+---
+
+### Using AskTheCode for Branch Management
+
+This sample demonstrates how to use the AskTheCode plugin for creating and deleting branches in a GitHub repository. It highlights the steps to authenticate using GitHub OAuth and then perform branch management tasks.
+
+**Sample Prompt:**
+
+```prompt
+https://github.com/username/repository
+Please create a new branch named "feature-x" from the "development" branch.
+```
+
+**Expected Response:**
+
+The AskTheCode plugin will create the new branch and provide confirmation.
+
+**Sample Prompt:**
+
+```prompt
+https://github.com/username/repository
+Please delete the "feature-x" branch.
+```
+
+**Expected Response:**
+
+The AskTheCode plugin will delete the specified branch and provide confirmation.
+
+---
+
+### Using AskTheCode for File Management
+
+This sample demonstrates how to use the AskTheCode plugin for creating and deleting files in a GitHub repository. It highlights the steps to authenticate using GitHub OAuth and then perform file management tasks.
+
+**Sample Prompt:**
+
+```prompt
+https://github.com/username/repository
+Please create a new file named "new_file.txt" with the content "Hello, world!" in the "feature-x" branch.
+```
+
+**Expected Response:**
+
+The AskTheCode plugin will create the new file and provide confirmation.
+
+**Sample Prompt:**
+
+```prompt
+https://github.com/username/repository
+Please delete the file named "old_file.txt" in the "feature-x" branch.
+```
+
+**Expected Response:**
+
+The AskTheCode plugin will delete the specified file and provide confirmation.
+
+---
+
+### Using AskTheCode for Repository Analysis
+
+This sample demonstrates how to use the AskTheCode plugin for analyzing the structure and content of a GitHub repository. It highlights the steps to authenticate using GitHub OAuth and then perform repository analysis tasks.
+
+**Sample Prompt:**
+
+```prompt
+https://github.com/username/repository
+Please provide an overview of the repository structure.
+```
+
+**Expected Response:**
+
+The AskTheCode plugin will retrieve and display the structure of the specified repository, including directories and files.
+
+**Sample Prompt:**
+
+```prompt
+https://github.com/username/repository
+Please show me the content of the README.md file.
+```
+
+**Expected Response:**
+
+The AskTheCode plugin will retrieve and display the content of the README.md file from the specified repository.
+
+---
+
+### Using AskTheCode for Commit History
+
+This sample demonstrates how to use the AskTheCode plugin for retrieving the commit history of a GitHub repository. It highlights the steps to authenticate using GitHub OAuth and then perform commit history tasks.
+
+**Sample Prompt:**
+
+```prompt
+https://github.com/username/repository
+Please show me the commit history for the main branch.
+```
+
+**Expected Response:**
+
+The AskTheCode plugin will retrieve and display the commit history for the main branch of the specified repository.
+
+**Sample Prompt:**
+
+```prompt
+https://github.com/username/repository
+Please show me the details of the latest commit in the main branch.
+```
+
+**Expected Response:**
+
+The AskTheCode plugin will retrieve and display the details of the latest commit in the main branch of the specified repository.
