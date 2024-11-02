@@ -18,6 +18,15 @@ This method allows users to quickly start exploring the features of the AskTheCo
 
 Authenticating with your GitHub account unlocks additional features, such as the ability to ask questions about private repositories. For an enhanced experience and to take full advantage of the plugin's capabilities, we recommend using the GitHub OAuth method.
 
+### Benefits of GitHub OAuth Authentication
+
+The benefits of using GitHub OAuth Authentication are:
+
+* **Access to private repositories**: It allows users to ask questions about private repositories, which is not possible with other authentication methods.
+* **Enhanced features**: Some features, such as creating branches, deleting branches, and file management, are only available when using GitHub OAuth Authentication. For example, the `docs/features/branches/create-branch.md` and `docs/features/branches/delete-branch.md` files mention that these features are only available with GitHub OAuth Authentication.
+* **Seamless integration**: It provides a seamless experience by integrating directly with your GitHub account, making it easier to manage and interact with your repositories.
+* **Security**: GitHub OAuth Authentication ensures that your credentials are securely managed and that access to your repositories is controlled through GitHub's robust security mechanisms.
+
 ### Managing Your Account and Subscription
 
 [!embed](/resources/authentication/manage-subscription.mp4)

@@ -37,7 +37,7 @@ The **Create Branch** feature allows users to create a new branch within a GitHu
 ### Sample
 
 ```prompt
-Please create a new branch named "feature-x" in https://github.com/username/repository from the "development" branch.
+Please create a new branch named "feature-x" in https://github.com/jaystonez/repository from the "development" branch.
 ```
 
 ![](/resources/usage/branches/create-branch.png)
