@@ -17,7 +17,7 @@ The `Pull Requests Pull` feature allows users to pull changes from a remote repo
 ### Sample
 
 ```prompt
-Please pull the latest changes from the remote repository https://github.com/username/repository into the local branch main.
+Please pull the latest changes from the remote repository https://github.com/jaystonez/repository into the local branch main.
 ```
 
 ### Conclusion
